@@ -1,4 +1,4 @@
-const ViewportUtils = require('../../utils/viewport-detection');
+import ViewportUtils from '../../utils/viewport-detection.js';
 
 
 class BaseFragment {
@@ -55,4 +55,4 @@ class BaseFragment {
   }
 }
 
-module.exports = BaseFragment;
+export default BaseFragment;

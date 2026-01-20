@@ -1,8 +1,8 @@
-const BaseFragment = require('./base-fragment');
-const { expect } = require('@playwright/test');
+import BaseFragment from './base-fragment.js';
+import { expect } from '@playwright/test';
 
 
-class OurMission extends BaseFragment {
+export class OurMission extends BaseFragment {
   
     constructor(page) {
         super(page);
@@ -40,4 +40,3 @@ class OurMission extends BaseFragment {
 }
 
 
-module.exports = OurMission;

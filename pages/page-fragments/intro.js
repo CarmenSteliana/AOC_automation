@@ -1,7 +1,7 @@
-const BaseFragment = require('./base-fragment');
+import BaseFragment from './base-fragment.js';
 
 
-class Intro extends BaseFragment {
+export class Intro extends BaseFragment {
   
     constructor(page) {
         super(page);
@@ -38,4 +38,3 @@ class Intro extends BaseFragment {
 
 }
 
-module.exports = Intro;

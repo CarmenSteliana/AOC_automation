@@ -1,9 +1,9 @@
-const Header = require('./page-fragments/header');
-const Intro = require('./page-fragments/intro');
-const OurMission = require('./page-fragments/our-mission');
+import Header from './page-fragments/header.js';
+import { Intro } from './page-fragments/intro.js';
+import { OurMission } from './page-fragments/our-mission.js';
 
 
-class MainPage {
+export class MainPage {
 
     constructor(page) {
         this.page = page;
@@ -18,4 +18,3 @@ class MainPage {
     }
 }
 
-module.exports = MainPage;

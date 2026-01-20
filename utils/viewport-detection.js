@@ -14,4 +14,4 @@ class ViewportUtils {
   }
 }
 
-module.exports = ViewportUtils;
+export default ViewportUtils;

@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { HelpingPage } from '../../pages/helping'
+import { HelpingPage } from '../pages/page-fragments/helping';
 
 test('Caută joburi și apasă săgețile', async ({ page }) => {
   const helping = new HelpingPage(page);

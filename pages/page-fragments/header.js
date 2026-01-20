@@ -1,4 +1,4 @@
-const BaseFragment = require('./base-fragment');
+import BaseFragment from './base-fragment.js';
 
 
 class Header extends BaseFragment {
@@ -58,6 +58,6 @@ class Header extends BaseFragment {
 }
 
 
-module.exports = Header;
+export default Header;
 
 
