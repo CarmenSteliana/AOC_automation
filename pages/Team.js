@@ -1,4 +1,4 @@
-export class Echipa {
+export class Team {
 
     constructor(page, expect) {
         this.page = page;
