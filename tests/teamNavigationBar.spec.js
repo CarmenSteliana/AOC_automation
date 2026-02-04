@@ -8,6 +8,7 @@ test('Team navigation bar', async ({ page }) => {
     const roleInput = 'Back-end';
     await team.teamNavigationBar(roleInput);
     await team.verifyMemberTeamDates();
-
+    await team.checkSocialsMediaMember();
+    await team.isRoleMachingFilter();
 
 })
